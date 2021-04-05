@@ -2,12 +2,12 @@
 
 namespace Artprima\PrometheusMetricsBundle\Tests;
 
-use Symfony\Bundle\FrameworkBundle\Tests\Functional\WebTestCase;
+use Symfony\Bundle\FrameworkBundle\Tests\Functional\AbstractWebTestCase;
 
 /**
  * @group functional
  */
-class BundleTest extends WebTestCase
+class BundleTest extends AbstractWebTestCase
 {
     protected static function getKernelClass()
     {
